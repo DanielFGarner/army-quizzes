@@ -10,7 +10,7 @@ creedLines = ['I am an American Soldier.',
               'I am diciplined, physically and mentally tough, trained and proficient in my warrior tasks and drills.',
               'I always maintain my arms, my equipment, and myself.',
               'I am an expert and I am a professional.',
-              'I stand ready to deploy, enage, and destroy the enemies of the United States of America in close combat.',
+              'I stand ready to deploy, engage, and destroy the enemies of the United States of America in close combat.',
               'I am a guardian of freedom and the American way of life.',
               'I am an American Soldier.'
               ]

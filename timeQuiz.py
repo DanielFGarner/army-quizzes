@@ -3,11 +3,14 @@ from random import randint
 userTime = ''
 
 while userTime != '0':
-    hour = randint(1,24)
+    hour = randint(0,24)
     minute = randint(1,60)
     militaryTime = f'{hour:0>2}{minute:0>2}'
-
-    print(f"{hour - 12 if hour >= 12 else hour}:{minute:0>2}{'am' if hour <= 12 else 'pm'}")
+    period = 'am' if hour < 12 else 'pm'
+    if hour == 0:
+        hour = 12
+    hour = hour - 12 if hour > 12 else hour
+    print(f"{hour}:{minute:0>2}{period}")
 
     correct = False
     while correct is False:

@@ -48,7 +48,7 @@ while mode != 'q':
                 if Quiz(creedLines[lvl]):
                     break
         if modifier == 'r':
-            startLevel = int(input('Select Starting Level (1-13)')) - 1
+            startLevel = int(input('Select Starting Level (1-13): ')) - 1
             for lvl in range(startLevel, 13):
                 Quiz(creedLines[lvl])
 
